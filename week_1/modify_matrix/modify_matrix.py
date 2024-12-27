@@ -5,7 +5,6 @@ def transpose(matrix: List[List[int]]) -> List[List[int]]:
 
     for i, row in enumerate(matrix):
         for j, cell in enumerate(row):
-            print(j)
             transposed[j].append(cell)
     
     return transposed
